@@ -30,10 +30,9 @@ private slots:
 
     void on_Aronia_clicked();
 
-    void enablebutton();
-
 private:
     Ui::Widget *ui;
+    void enablebutton();
 };
 
 #endif // WIDGET_H

@@ -14,11 +14,11 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
-    QString img_path = "/home/aa248424/images.png";
+    QString img_path = "/home/aa248424/index.jpeg";
     QImage img(img_path);
     QPixmap buf = QPixmap::fromImage(img);
 
-    buf = buf.scaled(1024,1024);
+    buf = buf.scaled(61,71);
 
 
     QGraphicsScene* scene = new QGraphicsScene;
